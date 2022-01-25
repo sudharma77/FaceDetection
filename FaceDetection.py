@@ -2,7 +2,7 @@ import cv2
 
 
 path = "Face/Face.xml"
-faceCascade = cv2.CascadeClassifier("Face/Face.xml")
+faceCascade = cv2.CascadeClassifier("Face.xml")
 img = cv2.imread("image/dp1.jpg")
 imgGray = cv2.cvtColor(img ,cv2.COLOR_BGR2GRAY)
 imgGray.save("geeks.jpg")
